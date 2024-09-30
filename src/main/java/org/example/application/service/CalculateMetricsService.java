@@ -6,6 +6,6 @@ public class CalculateMetricsService implements CalculateMetricsUseCase {
 
     @Override
     public void calculateMetrics(Param param) {
-
+        System.out.println("Ok");
     }
 }
