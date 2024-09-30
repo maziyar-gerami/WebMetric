@@ -1,6 +1,6 @@
 package org.example.application.port.in;
 
-import org.json.JSONObject;
+import org.json.JSONArray;
 
 import java.util.Optional;
 
@@ -10,11 +10,11 @@ public interface CalculateMetricsUseCase {
 
     class Param {
 
-        JSONObject impressions;
+        JSONArray impressions;
 
-        JSONObject clicks;
+        JSONArray clicks;
 
-        public Param(JSONObject impressions, JSONObject clicks) {
+        public Param(JSONArray impressions, JSONArray clicks) {
 
             this.impressions = Optional.ofNullable(impressions)
                     .filter(c -> !c.isEmpty())
