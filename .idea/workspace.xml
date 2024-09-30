@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e6121e2-4823-4e46-9af5-2f3341dc46e1" name="Changes" comment="">
+    <list default="true" id="6e6121e2-4823-4e46-9af5-2f3341dc46e1" name="Changes" comment="Task-CalculateMetrics: feat - Implement Hexagonal Architecture">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/port/in/CalculateMetricsUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/port/in/CalculateMetricsUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/service/CalculateMetricsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/service/CalculateMetricsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,10 +39,82 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CalculateMetricsUseCaseParamTest.executor": "Run",
+    "JUnit.CalculateMetricsUseCaseParamTest.testMetricsUseCaseParam_clicksIsNull_throwsException.executor": "Run",
+    "JUnit.CalculateMetricsUseCaseParamTest.testMetricsUseCaseParam_impressionsIsNull_throwsException.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.application.port.in" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculateMetricsUseCaseParamTest">
+    <configuration name="CalculateMetricsUseCaseParamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebMetricCodeChalleng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.application.port.in.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.application.port.in" />
+      <option name="MAIN_CLASS_NAME" value="org.example.application.port.in.CalculateMetricsUseCaseParamTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateMetricsUseCaseParamTest.testMetricsUseCaseParam_clicksIsNull_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebMetricCodeChalleng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.application.port.in.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.application.port.in" />
+      <option name="MAIN_CLASS_NAME" value="org.example.application.port.in.CalculateMetricsUseCaseParamTest" />
+      <option name="METHOD_NAME" value="testMetricsUseCaseParam_clicksIsNull_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateMetricsUseCaseParamTest.testMetricsUseCaseParam_impressionsIsNull_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebMetricCodeChalleng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.application.port.in.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.application.port.in" />
+      <option name="MAIN_CLASS_NAME" value="org.example.application.port.in.CalculateMetricsUseCaseParamTest" />
+      <option name="METHOD_NAME" value="testMetricsUseCaseParam_impressionsIsNull_throwsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculateMetricsUseCaseParamTest" />
+        <item itemvalue="JUnit.CalculateMetricsUseCaseParamTest.testMetricsUseCaseParam_impressionsIsNull_throwsException" />
+        <item itemvalue="JUnit.CalculateMetricsUseCaseParamTest.testMetricsUseCaseParam_clicksIsNull_throwsException" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -45,8 +130,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727686849668</updated>
-      <workItem from="1727686850832" duration="2000" />
+      <workItem from="1727686850832" duration="6410000" />
     </task>
+    <task id="LOCAL-00001" summary="CodeChallengeTask: feat - Initial Commit">
+      <option name="closed" value="true" />
+      <created>1727687018401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727687018401</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Task-CalculateMetrics: feat - Implement Hexagonal Architecture">
+      <option name="closed" value="true" />
+      <created>1727688937411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727688937411</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CodeChallengeTask: feat - Initial Commit" />
+    <MESSAGE value="Task-CalculateMetrics: feat - Implement Hexagonal Architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task-CalculateMetrics: feat - Implement Hexagonal Architecture" />
   </component>
 </project>
