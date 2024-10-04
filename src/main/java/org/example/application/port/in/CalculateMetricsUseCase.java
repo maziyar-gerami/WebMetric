@@ -1,5 +1,6 @@
 package org.example.application.port.in;
 
+import lombok.Getter;
 import org.json.JSONArray;
 
 import java.util.Optional;
@@ -8,6 +9,7 @@ public interface CalculateMetricsUseCase {
 
     void calculateMetrics(Param param);
 
+    @Getter
     class Param {
 
         JSONArray impressions;
