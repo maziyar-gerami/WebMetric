@@ -18,7 +18,10 @@ public class ImpressionJpaEntity {
 
     @Id
     @UuidGenerator
-    @Column(name = "id", updatable = false, nullable = false, columnDefinition = "CHAR(36)")
+    @Column(name = "_id", updatable = false, nullable = false, columnDefinition = "CHAR(36)")
+    String _id;
+
+    @Column(name = "id")
     String id;
 
     @Column(name = "app_id")

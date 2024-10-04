@@ -15,8 +15,8 @@ public class ClickJpaEntity {
 
     @Id
     @UuidGenerator
-    @Column(name = "id", updatable = false, nullable = false, columnDefinition = "CHAR(36)")
-    String id;
+    @Column(name = "_id", updatable = false, nullable = false, columnDefinition = "CHAR(36)")
+    String _id;
 
     @Column(name = "impression_id")
     String impressionId;
