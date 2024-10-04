@@ -1,0 +1,505 @@
+[ {
+  "appId" : 30,
+  "countryCode" : "US",
+  "impressions" : 38612,
+  "clicks" : 38612,
+  "revenue" : 38334.61946136678
+}, {
+  "appId" : 9,
+  "countryCode" : "US",
+  "impressions" : 11368,
+  "clicks" : 11368,
+  "revenue" : 15857.516040409078
+}, {
+  "appId" : 28,
+  "countryCode" : null,
+  "impressions" : 39004,
+  "clicks" : 39004,
+  "revenue" : 41085.315224488644
+}, {
+  "appId" : 6,
+  "countryCode" : "US",
+  "impressions" : 266,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 29,
+  "countryCode" : null,
+  "impressions" : 9408,
+  "clicks" : 9408,
+  "revenue" : 17220.008677931124
+}, {
+  "appId" : 40,
+  "countryCode" : "US",
+  "impressions" : 714,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 1,
+  "countryCode" : "IT",
+  "impressions" : 4116,
+  "clicks" : 4116,
+  "revenue" : 9425.765391673538
+}, {
+  "appId" : 21,
+  "countryCode" : null,
+  "impressions" : 140,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 13,
+  "countryCode" : "",
+  "impressions" : 4508,
+  "clicks" : 4508,
+  "revenue" : 4793.870763919074
+}, {
+  "appId" : 12,
+  "countryCode" : "IT",
+  "impressions" : 294,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 13,
+  "countryCode" : "US",
+  "impressions" : 12936,
+  "clicks" : 12936,
+  "revenue" : 16853.480016990867
+}, {
+  "appId" : 2,
+  "countryCode" : "",
+  "impressions" : 12152,
+  "clicks" : 12152,
+  "revenue" : 15253.047550195559
+}, {
+  "appId" : 33,
+  "countryCode" : null,
+  "impressions" : 24892,
+  "clicks" : 24892,
+  "revenue" : 14449.0467680788
+}, {
+  "appId" : 34,
+  "countryCode" : "IT",
+  "impressions" : 364,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 19,
+  "countryCode" : "DE",
+  "impressions" : 392,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 30,
+  "countryCode" : "",
+  "impressions" : 210,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 22,
+  "countryCode" : "IT",
+  "impressions" : 22344,
+  "clicks" : 22344,
+  "revenue" : 59363.20949232885
+}, {
+  "appId" : 27,
+  "countryCode" : "IT",
+  "impressions" : 6468,
+  "clicks" : 6468,
+  "revenue" : 3765.002739741761
+}, {
+  "appId" : 38,
+  "countryCode" : "IT",
+  "impressions" : 12670,
+  "clicks" : 12152,
+  "revenue" : 15776.391449015277
+}, {
+  "appId" : 25,
+  "countryCode" : "UK",
+  "impressions" : 3528,
+  "clicks" : 3528,
+  "revenue" : 6524.501395956171
+}, {
+  "appId" : 19,
+  "countryCode" : "",
+  "impressions" : 2548,
+  "clicks" : 2548,
+  "revenue" : 3369.7700740769005
+}, {
+  "appId" : 34,
+  "countryCode" : null,
+  "impressions" : 350,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 5,
+  "countryCode" : null,
+  "impressions" : 210,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 7,
+  "countryCode" : "IT",
+  "impressions" : 2492,
+  "clicks" : 1960,
+  "revenue" : 1832.2406324310127
+}, {
+  "appId" : 30,
+  "countryCode" : "DE",
+  "impressions" : 4312,
+  "clicks" : 4312,
+  "revenue" : 9895.272304423874
+}, {
+  "appId" : 9,
+  "countryCode" : null,
+  "impressions" : 56,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 15,
+  "countryCode" : "",
+  "impressions" : 7448,
+  "clicks" : 7448,
+  "revenue" : 12451.749429925898
+}, {
+  "appId" : 39,
+  "countryCode" : "US",
+  "impressions" : 2548,
+  "clicks" : 2548,
+  "revenue" : 3362.80172711073
+}, {
+  "appId" : 29,
+  "countryCode" : "",
+  "impressions" : 196,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 3,
+  "countryCode" : null,
+  "impressions" : 3136,
+  "clicks" : 3136,
+  "revenue" : 8196.388410141371
+}, {
+  "appId" : 34,
+  "countryCode" : "",
+  "impressions" : 266,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 36,
+  "countryCode" : null,
+  "impressions" : 6664,
+  "clicks" : 6664,
+  "revenue" : 6361.107206544901
+}, {
+  "appId" : 24,
+  "countryCode" : "",
+  "impressions" : 5068,
+  "clicks" : 4900,
+  "revenue" : 515.5944098647586
+}, {
+  "appId" : 40,
+  "countryCode" : "DE",
+  "impressions" : 23520,
+  "clicks" : 23520,
+  "revenue" : 35578.83395033773
+}, {
+  "appId" : 23,
+  "countryCode" : "US",
+  "impressions" : 10388,
+  "clicks" : 10388,
+  "revenue" : 18713.164280346024
+}, {
+  "appId" : 25,
+  "countryCode" : "",
+  "impressions" : 5292,
+  "clicks" : 5292,
+  "revenue" : 11398.896854060173
+}, {
+  "appId" : 24,
+  "countryCode" : "UK",
+  "impressions" : 12544,
+  "clicks" : 12544,
+  "revenue" : 21528.359660208822
+}, {
+  "appId" : 34,
+  "countryCode" : "DE",
+  "impressions" : 13328,
+  "clicks" : 13328,
+  "revenue" : 24647.200043539204
+}, {
+  "appId" : 22,
+  "countryCode" : "DE",
+  "impressions" : 5278,
+  "clicks" : 5096,
+  "revenue" : 12640.557777227836
+}, {
+  "appId" : 6,
+  "countryCode" : "",
+  "impressions" : 12166,
+  "clicks" : 11760,
+  "revenue" : 16313.47714877798
+}, {
+  "appId" : 5,
+  "countryCode" : "IT",
+  "impressions" : 6272,
+  "clicks" : 6272,
+  "revenue" : 16108.170029287498
+}, {
+  "appId" : 32,
+  "countryCode" : "DE",
+  "impressions" : 196,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 28,
+  "countryCode" : "US",
+  "impressions" : 29792,
+  "clicks" : 29792,
+  "revenue" : 62020.093759488904
+}, {
+  "appId" : 30,
+  "countryCode" : null,
+  "impressions" : 12152,
+  "clicks" : 12152,
+  "revenue" : 12900.570910710416
+}, {
+  "appId" : 7,
+  "countryCode" : "DE",
+  "impressions" : 6272,
+  "clicks" : 6272,
+  "revenue" : 2236.743051409017
+}, {
+  "appId" : 14,
+  "countryCode" : "UK",
+  "impressions" : 3528,
+  "clicks" : 3528,
+  "revenue" : 8273.561894690742
+}, {
+  "appId" : 9,
+  "countryCode" : "IT",
+  "impressions" : 392,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 10,
+  "countryCode" : "DE",
+  "impressions" : 224,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 16,
+  "countryCode" : "UK",
+  "impressions" : 14112,
+  "clicks" : 14112,
+  "revenue" : 24754.575322830296
+}, {
+  "appId" : 0,
+  "countryCode" : "",
+  "impressions" : 56,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 4,
+  "countryCode" : "",
+  "impressions" : 238,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 19,
+  "countryCode" : "UK",
+  "impressions" : 420,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 15,
+  "countryCode" : "US",
+  "impressions" : 4900,
+  "clicks" : 4900,
+  "revenue" : 10462.695464193133
+}, {
+  "appId" : 5,
+  "countryCode" : "US",
+  "impressions" : 406,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 35,
+  "countryCode" : "IT",
+  "impressions" : 5684,
+  "clicks" : 5684,
+  "revenue" : 1380.8798252743834
+}, {
+  "appId" : 9,
+  "countryCode" : "",
+  "impressions" : 4116,
+  "clicks" : 4116,
+  "revenue" : 8284.127869314778
+}, {
+  "appId" : 19,
+  "countryCode" : "US",
+  "impressions" : 42,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 7,
+  "countryCode" : null,
+  "impressions" : 84,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 20,
+  "countryCode" : "",
+  "impressions" : 308,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 18,
+  "countryCode" : null,
+  "impressions" : 14112,
+  "clicks" : 14112,
+  "revenue" : 19263.05936973687
+}, {
+  "appId" : 14,
+  "countryCode" : "US",
+  "impressions" : 112,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 26,
+  "countryCode" : "DE",
+  "impressions" : 5488,
+  "clicks" : 5488,
+  "revenue" : 8715.591841638561
+}, {
+  "appId" : 33,
+  "countryCode" : "US",
+  "impressions" : 2352,
+  "clicks" : 2352,
+  "revenue" : 4359.382523097663
+}, {
+  "appId" : 13,
+  "countryCode" : "DE",
+  "impressions" : 4312,
+  "clicks" : 4312,
+  "revenue" : 1997.4206062510684
+}, {
+  "appId" : 26,
+  "countryCode" : "US",
+  "impressions" : 280,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 4,
+  "countryCode" : "IT",
+  "impressions" : 9016,
+  "clicks" : 9016,
+  "revenue" : 19949.633003939412
+}, {
+  "appId" : 4,
+  "countryCode" : "UK",
+  "impressions" : 252,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 11,
+  "countryCode" : "US",
+  "impressions" : 1764,
+  "clicks" : 1764,
+  "revenue" : 3148.8690609215037
+}, {
+  "appId" : 38,
+  "countryCode" : "",
+  "impressions" : 3920,
+  "clicks" : 3920,
+  "revenue" : 7062.05846501249
+}, {
+  "appId" : 21,
+  "countryCode" : "IT",
+  "impressions" : 420,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 10,
+  "countryCode" : "US",
+  "impressions" : 8624,
+  "clicks" : 8624,
+  "revenue" : 5814.737962943703
+}, {
+  "appId" : 8,
+  "countryCode" : "DE",
+  "impressions" : 182,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 18,
+  "countryCode" : "DE",
+  "impressions" : 3136,
+  "clicks" : 3136,
+  "revenue" : 1217.3952397069252
+}, {
+  "appId" : 5,
+  "countryCode" : "DE",
+  "impressions" : 4116,
+  "clicks" : 4116,
+  "revenue" : 3246.336380063641
+}, {
+  "appId" : 32,
+  "countryCode" : "UK",
+  "impressions" : 210,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 18,
+  "countryCode" : "IT",
+  "impressions" : 4312,
+  "clicks" : 4312,
+  "revenue" : 12420.382983072806
+}, {
+  "appId" : 21,
+  "countryCode" : "DE",
+  "impressions" : 5488,
+  "clicks" : 5488,
+  "revenue" : 3217.188597944439
+}, {
+  "appId" : 16,
+  "countryCode" : "US",
+  "impressions" : 14112,
+  "clicks" : 14112,
+  "revenue" : 23441.51227206087
+}, {
+  "appId" : 0,
+  "countryCode" : "IT",
+  "impressions" : 112,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 27,
+  "countryCode" : null,
+  "impressions" : 2940,
+  "clicks" : 2940,
+  "revenue" : 8028.702957023555
+}, {
+  "appId" : 35,
+  "countryCode" : "US",
+  "impressions" : 140,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 20,
+  "countryCode" : "IT",
+  "impressions" : 42,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 29,
+  "countryCode" : "DE",
+  "impressions" : 14,
+  "clicks" : 0,
+  "revenue" : 0.0
+}, {
+  "appId" : 6,
+  "countryCode" : "DE",
+  "impressions" : 28,
+  "clicks" : 0,
+  "revenue" : 0.0
+} ]

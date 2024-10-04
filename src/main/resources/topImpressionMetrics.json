@@ -1,0 +1,26 @@
+[ {
+  "appId" : 18,
+  "countryCode" : "IT",
+  "impressions" : null,
+  "revenuePerImpression" : 2.8804227697294826
+}, {
+  "appId" : 18,
+  "countryCode" : "IT",
+  "impressions" : 16,
+  "revenuePerImpression" : 2.880422769729335
+}, {
+  "appId" : 27,
+  "countryCode" : null,
+  "impressions" : 12,
+  "revenuePerImpression" : 2.7308513459263484
+}, {
+  "appId" : 27,
+  "countryCode" : null,
+  "impressions" : null,
+  "revenuePerImpression" : 2.730851345926244
+}, {
+  "appId" : 22,
+  "countryCode" : "IT",
+  "impressions" : 20,
+  "revenuePerImpression" : 2.656785244017536
+} ]
