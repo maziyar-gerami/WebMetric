@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e6121e2-4823-4e46-9af5-2f3341dc46e1" name="Changes" comment="Task-CalculateMetrics: Feat - Add Service and Implement `UseCase` [WIP]">
+    <list default="true" id="6e6121e2-4823-4e46-9af5-2f3341dc46e1" name="Changes" comment="Task-CalculateMetrics: Feat - Add Ports anf Implement In Persister adapter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/adapter/in/CalculateMetricsFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/in/CalculateMetricsFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/domain/Click.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/domain/Click.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/domain/Impression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/domain/Impression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/port/in/CalculateMetricsUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/port/in/CalculateMetricsUseCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/port/out/CalculateMetricsFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/port/out/CalculateMetricsFileWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/service/CalculateMetricsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/service/CalculateMetricsService.java" afterDir="false" />
     </list>
@@ -43,7 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "JUnit.CalculateMetricsUseCaseParamTest.executor": "Run",
     "JUnit.CalculateMetricsUseCaseParamTest.testMetricsUseCaseParam_clicksIsNull_throwsException.executor": "Run",
     "JUnit.CalculateMetricsUseCaseParamTest.testMetricsUseCaseParam_impressionsIsNull_throwsException.executor": "Run",
@@ -160,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727686849668</updated>
       <workItem from="1727686850832" duration="23861000" />
-      <workItem from="1727961212818" duration="23331000" />
+      <workItem from="1727961212818" duration="32726000" />
     </task>
     <task id="LOCAL-00001" summary="CodeChallengeTask: feat - Initial Commit">
       <option name="closed" value="true" />
@@ -218,7 +213,63 @@
       <option name="project" value="LOCAL" />
       <updated>1727697260072</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Task-CalculateMetrics: Feat - Enrich dependencies">
+      <option name="closed" value="true" />
+      <created>1728018383174</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728018383174</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Task-CalculateMetrics: Feat - Add Jpa Entities">
+      <option name="closed" value="true" />
+      <created>1728018440266</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728018440266</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Task-CalculateMetrics: Feat - Add Jpa Entities">
+      <option name="closed" value="true" />
+      <created>1728018463709</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728018463709</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Task-CalculateMetrics: Feat - Complete Domain">
+      <option name="closed" value="true" />
+      <created>1728018524721</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728018524721</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Task-CalculateMetrics: Refactor - Add @Getter to UseCase">
+      <option name="closed" value="true" />
+      <created>1728018671422</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728018671422</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Task-CalculateMetrics: Refactor - Minor Changes In domain and JPAs">
+      <option name="closed" value="true" />
+      <created>1728061304376</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728061304376</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Task-CalculateMetrics: Feat - Add Ports anf Implement In Persister adapter">
+      <option name="closed" value="true" />
+      <created>1728061532375</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728061532375</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +291,13 @@
     <MESSAGE value="Task-CalculateMetrics: Refactor - Add `clicks.json` and `impressions.json` to Resources" />
     <MESSAGE value="Task-CalculateMetrics: Feat - Add `clicks.json` and `impressions.json` to Resources" />
     <MESSAGE value="Task-CalculateMetrics: Feat - Add Service and Implement `UseCase` [WIP]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task-CalculateMetrics: Feat - Add Service and Implement `UseCase` [WIP]" />
+    <MESSAGE value="Task-CalculateMetrics: Feat - Enrich dependencies" />
+    <MESSAGE value="Task-CalculateMetrics: Feat - Add Jpa Entities" />
+    <MESSAGE value="Task-CalculateMetrics: Feat - Complete Domain" />
+    <MESSAGE value="Task-CalculateMetrics: Refactor - Add @Getter to UseCase" />
+    <MESSAGE value="Task-CalculateMetrics: Refactor - Minor Changes In domain and JPAs" />
+    <MESSAGE value="Task-CalculateMetrics: Feat - Add Ports anf Implement In Persister adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task-CalculateMetrics: Feat - Add Ports anf Implement In Persister adapter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -248,7 +305,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <condition expression="impression.getId() == null" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/main/java/org/example/adapter/out/Mapper.java</url>
-          <line>14</line>
+          <line>17</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>

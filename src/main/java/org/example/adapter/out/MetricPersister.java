@@ -1,5 +1,6 @@
 package org.example.adapter.out;
 
+import lombok.extern.slf4j.Slf4j;
 import org.example.application.domain.Impression;
 import org.example.application.domain.Metrics;
 import org.example.application.port.out.CalculateMetricsPort;
@@ -13,6 +14,7 @@ import org.example.application.port.out.SaveClicksPort;
 
 import java.util.List;
 
+@Slf4j
 public class MetricPersister implements
         SaveClicksPort,
         SaveImpressionsPort,
@@ -35,7 +37,7 @@ public class MetricPersister implements
             transaction.commit();
         } catch (Exception e) {
             if (transaction != null && transaction.isActive()) {
-                e.printStackTrace();
+                log.info(e.getMessage());
                 transaction.rollback();
             }
         }
@@ -58,7 +60,7 @@ public class MetricPersister implements
             transaction.commit();
         } catch (Exception e) {
             if (transaction != null && transaction.isActive()) {
-                e.printStackTrace();
+                log.info(e.getMessage());
                 transaction.rollback();
             }
         }

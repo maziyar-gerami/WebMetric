@@ -1,4 +1,10 @@
 package org.example.application.port.out;
 
-public class CalculateMetricsFileWriter {
+import org.example.application.domain.Metrics;
+
+import java.util.List;
+
+public interface CalculateMetricsFileWriter {
+
+    void write(List<Metrics> metrics);
 }
