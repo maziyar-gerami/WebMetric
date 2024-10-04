@@ -21,7 +21,6 @@ public class CalculateMetricsFileReader {
         JSONArray clicks;
         JSONArray impressions;
 
-
         try {
             InputStream clicksInputStream = getClass().getClassLoader().getResourceAsStream(clicksFileName);
             String jsonContent = new String(clicksInputStream.readAllBytes(), StandardCharsets.UTF_8);
@@ -39,5 +38,4 @@ public class CalculateMetricsFileReader {
         }
         calculateMetricsUseCase.calculateMetrics(new CalculateMetricsUseCase.Param(impressions, clicks));
     }
-
 }
