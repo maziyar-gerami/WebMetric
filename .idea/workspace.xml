@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e6121e2-4823-4e46-9af5-2f3341dc46e1" name="Changes" comment="Task-CalculateMetrics: Feat - Add Ports anf Implement In Persister adapter">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/port/out/CalculateMetricsFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/port/out/CalculateMetricsFileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/service/CalculateMetricsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/service/CalculateMetricsService.java" afterDir="false" />
-    </list>
+    <list default="true" id="6e6121e2-4823-4e46-9af5-2f3341dc46e1" name="Changes" comment="Task-CalculateMetrics: Feat - Top 5 recommender add" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727686849668</updated>
       <workItem from="1727686850832" duration="23861000" />
-      <workItem from="1727961212818" duration="32726000" />
+      <workItem from="1727961212818" duration="40889000" />
     </task>
     <task id="LOCAL-00001" summary="CodeChallengeTask: feat - Initial Commit">
       <option name="closed" value="true" />
@@ -269,7 +265,39 @@
       <option name="project" value="LOCAL" />
       <updated>1728061532375</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Task-CalculateMetrics: Feat - Add and implement FileWriter port and Adapter">
+      <option name="closed" value="true" />
+      <created>1728061996415</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728061996415</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Task-CalculateMetrics: Feat - CalculateMetricsService added">
+      <option name="closed" value="true" />
+      <created>1728062059226</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728062059226</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Task-CalculateMetrics: Feat - Complete">
+      <option name="closed" value="true" />
+      <created>1728069729858</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728069729858</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Task-CalculateMetrics: Feat - Top 5 recommender add">
+      <option name="closed" value="true" />
+      <created>1728069863550</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728069863550</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +325,11 @@
     <MESSAGE value="Task-CalculateMetrics: Refactor - Add @Getter to UseCase" />
     <MESSAGE value="Task-CalculateMetrics: Refactor - Minor Changes In domain and JPAs" />
     <MESSAGE value="Task-CalculateMetrics: Feat - Add Ports anf Implement In Persister adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task-CalculateMetrics: Feat - Add Ports anf Implement In Persister adapter" />
+    <MESSAGE value="Task-CalculateMetrics: Feat - Add and implement FileWriter port and Adapter" />
+    <MESSAGE value="Task-CalculateMetrics: Feat - CalculateMetricsService added" />
+    <MESSAGE value="Task-CalculateMetrics: Feat - Complete" />
+    <MESSAGE value="Task-CalculateMetrics: Feat - Top 5 recommender add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task-CalculateMetrics: Feat - Top 5 recommender add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -307,6 +339,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/adapter/out/Mapper.java</url>
           <line>17</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/application/service/CalculateImpressionMetricsService.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/adapter/out/MetricPersister.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

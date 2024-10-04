@@ -27,8 +27,8 @@ public class ImpressionJpaEntity {
     @Column(name = "app_id")
     Long appId;
 
-    @Column(name = "advertise_id")
-    Long advertiseId;
+    @Column(name = "advertiser_id")
+    Long advertiserId;
 
     @Column(name = "country_code")
     String countryCode;

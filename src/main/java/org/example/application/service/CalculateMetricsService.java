@@ -2,6 +2,7 @@ package org.example.application.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import jakarta.transaction.Transactional;
 import org.example.adapter.out.FileWriter;
 import org.example.adapter.out.MetricPersister;
 import org.example.application.domain.Click;
@@ -11,12 +12,15 @@ import org.example.application.port.in.CalculateMetricsUseCase;
 
 import java.util.List;
 
+@Transactional
 public class CalculateMetricsService implements CalculateMetricsUseCase {
+
+    MetricPersister persister = new MetricPersister();
+    FileWriter writer = new FileWriter();
 
     @Override
     public void calculateMetrics(Param param) {
-        MetricPersister persister = new MetricPersister();
-        FileWriter writer = new FileWriter();
+
         List<Click> clicks = null;
         List<Impression> impressions = null;
 
@@ -31,6 +35,6 @@ public class CalculateMetricsService implements CalculateMetricsUseCase {
         persister.saveAllClicks(clicks);
         persister.saveAllImpressions (impressions);
         List<Metrics> metrics = persister.calculate();
-        writer.write(metrics);
+        writer.write(metrics, "Metrics");
     }
 }

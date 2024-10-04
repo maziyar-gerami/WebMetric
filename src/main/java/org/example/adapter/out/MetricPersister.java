@@ -2,7 +2,9 @@ package org.example.adapter.out;
 
 import lombok.extern.slf4j.Slf4j;
 import org.example.application.domain.Impression;
+import org.example.application.domain.ImpressionMetrics;
 import org.example.application.domain.Metrics;
+import org.example.application.port.out.CalculateImpressionMetricsPort;
 import org.example.application.port.out.CalculateMetricsPort;
 import org.example.application.port.out.SaveImpressionsPort;
 import org.hibernate.Session;
@@ -18,7 +20,8 @@ import java.util.List;
 public class MetricPersister implements
         SaveClicksPort,
         SaveImpressionsPort,
-        CalculateMetricsPort {
+        CalculateMetricsPort,
+        CalculateImpressionMetricsPort {
 
     private static final SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
 
@@ -97,6 +100,46 @@ public class MetricPersister implements
                         (Long) result[2],           // impressions
                         (Long) result[3],           // clicks
                         (Double) result[4]          // revenue
+                ))
+                .toList();
+    }
+
+    @Override
+    public List<ImpressionMetrics> calculateImpressionMetrics() {
+        Transaction transaction = null;
+        List<Object[]> rawResultList = null;
+        try (Session session = sessionFactory.openSession()) {
+            transaction = session.beginTransaction();
+
+            String jpql = """
+    SELECT i.appId AS appId,
+           i.countryCode AS countryCode,
+           i.advertiserId AS advertiserId, 
+           (SUM(c.revenue) / COUNT(c.impressionId)) AS revenuePerImpression
+    FROM ImpressionJpaEntity i 
+    LEFT JOIN ClickJpaEntity c ON i.id = c.impressionId 
+    GROUP BY i.appId, i.countryCode, i.advertiserId
+    ORDER BY i.appId, i.countryCode, revenuePerImpression DESC
+    """;
+
+            var query = session.createQuery(jpql);
+
+            rawResultList = query.getResultList();
+
+            transaction.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            if (transaction != null && transaction.isActive()) {
+                transaction.rollback();
+            }
+        }
+
+        return rawResultList.stream()
+                .map(result -> new ImpressionMetrics(
+                        (Long) result[0],           // appId
+                        (String) result[1],         // countryCode
+                        (Long) result[2],           // impressions
+                        (Double) result[3]          // revenue
                 ))
                 .toList();
     }
