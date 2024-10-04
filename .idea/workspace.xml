@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e6121e2-4823-4e46-9af5-2f3341dc46e1" name="Changes" comment="Task-CalculateMetrics: feat - Implement UseCase and UseCaseParamTest">
+    <list default="true" id="6e6121e2-4823-4e46-9af5-2f3341dc46e1" name="Changes" comment="Task-CalculateMetrics: Feat - Add Service and Implement `UseCase` [WIP]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/adapter/in/CalculateMetricsFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/in/CalculateMetricsFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/domain/Click.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/domain/Click.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/domain/Impression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/domain/Impression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/port/in/CalculateMetricsUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/port/in/CalculateMetricsUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/application/port/in/CalculateMetricsUseCaseParamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/application/port/in/CalculateMetricsUseCaseParamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/port/out/CalculateMetricsFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/port/out/CalculateMetricsFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/application/service/CalculateMetricsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/application/service/CalculateMetricsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,18 +22,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit3 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2mmfoGz7KYXwfzGKZUkFlW6kWo2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,14 +43,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "JUnit.CalculateMetricsUseCaseParamTest.executor": "Run",
     "JUnit.CalculateMetricsUseCaseParamTest.testMetricsUseCaseParam_clicksIsNull_throwsException.executor": "Run",
     "JUnit.CalculateMetricsUseCaseParamTest.testMetricsUseCaseParam_impressionsIsNull_throwsException.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/maziyar/Work/java/WebMetricCodeChalleng/src/main/resources",
@@ -58,10 +63,15 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.application.service" />
       <recent name="org.example.application.port.in" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.adapter.out" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -149,7 +159,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727686849668</updated>
-      <workItem from="1727686850832" duration="9437000" />
+      <workItem from="1727686850832" duration="23861000" />
+      <workItem from="1727961212818" duration="23331000" />
     </task>
     <task id="LOCAL-00001" summary="CodeChallengeTask: feat - Initial Commit">
       <option name="closed" value="true" />
@@ -175,7 +186,39 @@
       <option name="project" value="LOCAL" />
       <updated>1727693869781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Task-CalculateMetrics: Refactor - Change Inputs from 'jsonObject' t `jsonArray`">
+      <option name="closed" value="true" />
+      <created>1727696978113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727696978113</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Task-CalculateMetrics: Refactor - Add `clicks.json` and `impressions.json` to Resources">
+      <option name="closed" value="true" />
+      <created>1727697044975</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727697044975</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Task-CalculateMetrics: Feat - Add `clicks.json` and `impressions.json` to Resources">
+      <option name="closed" value="true" />
+      <created>1727697100483</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727697100483</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Task-CalculateMetrics: Feat - Add Service and Implement `UseCase` [WIP]">
+      <option name="closed" value="true" />
+      <created>1727697260072</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727697260072</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,15 +236,20 @@
     <MESSAGE value="CodeChallengeTask: feat - Initial Commit" />
     <MESSAGE value="Task-CalculateMetrics: feat - Implement Hexagonal Architecture" />
     <MESSAGE value="Task-CalculateMetrics: feat - Implement UseCase and UseCaseParamTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task-CalculateMetrics: feat - Implement UseCase and UseCaseParamTest" />
+    <MESSAGE value="Task-CalculateMetrics: Refactor - Change Inputs from 'jsonObject' t `jsonArray`" />
+    <MESSAGE value="Task-CalculateMetrics: Refactor - Add `clicks.json` and `impressions.json` to Resources" />
+    <MESSAGE value="Task-CalculateMetrics: Feat - Add `clicks.json` and `impressions.json` to Resources" />
+    <MESSAGE value="Task-CalculateMetrics: Feat - Add Service and Implement `UseCase` [WIP]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task-CalculateMetrics: Feat - Add Service and Implement `UseCase` [WIP]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/adapter/in/CalculateMetricsFileReader.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
+          <condition expression="impression.getId() == null" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/adapter/out/Mapper.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

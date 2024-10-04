@@ -1,0 +1,17 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/app</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">secret</property>
+        <property name="connection.pool_size">300</property>
+        <property name="current_session_context_class">thread</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <property name="hbm2ddl.auto">update</property>
+
+        <mapping class="org.example.adapter.out.ClickJpaEntity"/>
+        <mapping class="org.example.adapter.out.ImpressionJpaEntity"/>
+    </session-factory>
+</hibernate-configuration>
